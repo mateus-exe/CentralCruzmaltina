@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1280px;
+}
+
+body{
+    color: white;
+    background-color: rgba(10, 10, 10, 0.945)
+}
+
+header {
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+header h1 {
+    color: red;
+    font-size: 30px;
+}
+
+div .title h1, img {
+    display: inline;
+}
+
+header img {
+    height: 20px;
+    width: 20px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-right: 0px;
+}
+
+
+header nav li a {
+    color:#ecf0f1;
+    text-decoration: none;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px 30px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#historia img {
+    height: 250px;
+    width: 300px;
+    margin-left: 150px;
+    margin-right: 30px;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#estadio img {
+    height: 300px;
+    width: 600px;
+    margin: 10px 300px;
+    border: 5px solid white;
+}
+
+#elenco img {
+    height: 200px;
+    width: 300px;
+    margin: 30px 40px;
+    border: 5px solid white;
+    display: inline;
+}
+
+section div p {
+    margin-left: 10px
+}
+
+
+#jogos img {
+    height: 500px;
+    width: 500px;
+    margin: 10px 350px;
+    border: 5px solid white;
+    justify-content: center;
+}
+
+h1, h2, h3, header li, form button {
+    font-family:'Merriweather', cursive;
+}
+
+#social-media img {
+    height: 50px;
+    width: 50px;
+    margin: 20px 10px;
+}
+
+footer p {
+    padding-right: 50px;
+    margin-left: 840px;
+}
+
+form input,
+textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #282727;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a4244d;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61 ;
+}
