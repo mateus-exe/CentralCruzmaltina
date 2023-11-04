@@ -121,6 +121,7 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    margin-left: 20px;
 }
 
 form textarea {
